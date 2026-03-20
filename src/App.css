@@ -1,0 +1,26 @@
+html {
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+.GameBoard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+}
+
+.GameBoardCell {
+  border: 1px solid black;
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+}
